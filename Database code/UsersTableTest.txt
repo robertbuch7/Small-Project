@@ -1,0 +1,5 @@
+insert into Users (FirstName, LastName, Login, Password) VALUES ('Batman','none', 'batsy', 'IamBatman');
+insert into Users (FirstName, LastName, Login, Password) VALUES ('Superman','none', 'boyscout', 'L&C4ever');
+insert into Users (FirstName, LastName, Login, Password) VALUES ('ActionMovieFan','none', 'anon', 'diehard');
+insert into Users (FirstName, LastName, Login, Password) VALUES ('Billy', 'Bob','bobbo', 'iambob');
+

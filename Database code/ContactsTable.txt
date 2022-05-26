@@ -1,0 +1,15 @@
+CREATE TABLE Contacts(
+  ID INT NOT NULL AUTO_INCREMENT,
+  FirstName VARCHAR(50) NOT NULL DEFAULT '',
+  LastName VARCHAR(50) NOT NULL DEFAULT '',
+  Email VARCHAR(50) NOT NULL DEFAULT '',
+  Phone VARCHAR(50) NOT NULL DEFAULT '',
+  DateCreated DATETIME DEFAULT CURRENT_TIMESTAMP,
+  UserID INT NOT NULL DEFAULT 0,
+  PRIMARY KEY(ID)
+);
+
+//On line 8, the default value is 0, this is the ID of the owner of the Contacts
+//If in the table there is a contact with UserID = 0,
+//it means there was a mistake when creating the contact
+//because there is no user with ID = 0

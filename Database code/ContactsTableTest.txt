@@ -1,0 +1,10 @@
+insert into Contacts (FirstName, LastName, Email, Phone, UserID) VALUES ('John', 'McClane',' brucew@gmail.com', '253-576-3452' 3);
+insert into Contacts (FirstName, LastName, Email, Phone, UserID) VALUES ('John', 'Wick', 'johnw@gmail.com', '643-675-7356', 3);
+insert into Contacts (FirstName, LastName, Email, Phone, UserID) VALUES ('Bruce', 'Wayne', ' bruce@wayneenterprises.com', '354-721-6438', 1);
+insert into Contacts (FirstName, LastName, Email, Phone, UserID) VALUES ('Clark', 'Kent', 'clarkk@gmail.com', ' 657-975-3426', 2);
+insert into Contacts (FirstName, LastName, Email, Phone, UserID) VALUES ('Alfred', 'Pennyworth', 'alfredp@wayneenterprises.com', '789-453-8612', 1);
+insert into Contacts (FirstName, LastName, Email, Phone, UserID) VALUES ('Louis', 'Lane', ' louisl@gmail.com', '456-678-3452', 2);
+insert into Contacts (FirstName, LastName, Email, Phone, UserID) VALUES ('Krypto', 'Kent', 'kryptok@gmail.com', '657-975-3426', 2);
+insert into Contacts (FirstName, LastName, Email, Phone, UserID) VALUES ('James', 'Gordon', 'jamesg@gcpd.com', '407-407-4047', 1);
+insert into Contacts (FirstName, LastName, Email, Phone, UserID) VALUES ('Barbara', 'Gordon', 'barbsg@gcpd.com', ' 407-407-4046', 1);
+insert into Contacts (FirstName, LastName, Email, Phone, UserID) VALUES ('Liam', 'Neeson', 'liamn@gmail.com', '324-735-6735', 3);
