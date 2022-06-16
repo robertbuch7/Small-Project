@@ -382,7 +382,7 @@ function doSearch() {
 					let link = document.createElement("button");
 					//link.onClick = document.getElementById("searchResult").innerHTML = "You clicked it...";//function() {
 					link.innerHTML = "Open";
-          			link.style.backgroundColor = "#4F8DF4"; // change this
+          			link.style.backgroundColor = "#92B3EA"; // change this
 					link.style.color = "white";
           			link.style.font = "bold 10px";
 					tdUpdate.appendChild(link);
@@ -706,6 +706,7 @@ function goToAddContact(){
 function init()
 {
   onContactsLoad();
+  doSearch();
 //   document.getElementById("searchText").addEventListener("keyup", function() {
 //   // let oldSearch = document.getElementById("searchText").value;
 //   // sleepFor(50);
