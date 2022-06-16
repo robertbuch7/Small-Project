@@ -8,7 +8,16 @@
 		<link href = "css/style.css" rel = "stylesheet">
 		<script src = "js/script.js"></script>
 	</head>
-	
+	<style>
+    #loginResult {
+			display: none;
+			max-width: 160px;
+			margin: auto;
+			padding: 10px 1rem 2px;
+			border-radius: 16px;
+			text-align: center;
+		}
+  </style>
 	<body class = "celestial">
 
 		<div id = "login" class = "standard" style = "justify-content: center;">
@@ -25,8 +34,7 @@
 			<button type = "button" onclick = "doLogin()" class = "filledButton">login</button>
 			<br><br>
 			
-			<p id = "loginResult"></p><!-- this will appear if there's an error-->
-      		<p id = "accountCreated" style = "color: green;"></p>
+			<h4 id = "loginResult" style = "color: red;"></h4>
 			
 			<br><br><br>
 			<button type = "button" onClick = "window.location.href = 'register.html';">Create a New Account</button>

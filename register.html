@@ -16,11 +16,20 @@
 			#registerPage input[type = "password"]{
 				margin-top: 0px;
 			}
+
+      #registerResult {
+			display: none;
+			max-width: 150px;
+			margin: auto;
+			padding: 10px 1rem 2px;
+			border-radius: 16px;
+			text-align: center;
+		}
 		</style>
 	</head>
 	
 	<body class = "celestial" >
-    <div class = "standard" id = "registerPage">
+    <div class = "standard" id = "registerPage" style = "width: 400px;">
 			<h3>Register</h3>
 
 			<p>First Name*</p>
@@ -40,9 +49,9 @@
 			<br><br>
       
 			<button type="button" onclick="doRegister();" class = "filledButton">Create Account</button>
-			<br>
+			<br><br>
 			
-			<p id = "registerResult" style = "color: red;"></p>
+			<h4 id = "registerResult" style = "color: red;"></h4>
 			<br><br>
 			<button type = "button" onClick = "window.location.href = 'index.html';">Return to Login</button>
 			
