@@ -1,0 +1,52 @@
+<html>
+	
+	<head>
+		<title>Contact Manager</title>
+		
+		<link href = "css/style.css" rel = "stylesheet">
+		<script type = "text/javascript" src = "js/script.js"></script>
+		<style>
+			#registerPage p {
+				margin-bottom: 5px; 
+			}
+			#registerPage input[type = "text"]{
+				margin-top: 0px;
+			}
+
+			#registerPage input[type = "password"]{
+				margin-top: 0px;
+			}
+		</style>
+	</head>
+	
+	<body class = "celestial" >
+    <div class = "standard" id = "registerPage">
+			<h3>Register</h3>
+
+			<p>First Name*</p>
+			<input type = "text" id = "registerfirstName" name = "firstName" placeholder = "First name">
+	
+			<p>Last Name*</p>
+			<input type = "text" id = "registerlastName" name = "lastName" placeholder = "Last name">
+			
+			<p>Login*</p>
+			<input type = "text" id = "registerloginName" name = "login" placeholder = "Login">
+		
+			<p><abbr title = "Password Must Contain 1 Special, Uppercase and Lowercase Character and 1 Number">Password</abbr>*</p>
+			<input type = "password" id = "registerpassword" name = "password" placeholder = "Password">
+			
+      		<p>Confirm <abbr title = "Password Must Contain 1 Special, Uppercase and Lowercase Character and 1 Number">Password</abbr>*</p>
+      		<input type = "password" id = "registerpasswordConfirm" name = "password" placeholder = "Confirm Password">
+			<br><br>
+      
+			<button type="button" onclick="doRegister();" class = "filledButton">Create Account</button>
+			<br>
+			
+			<p id = "registerResult" style = "color: red;"></p>
+			<br><br>
+			<button type = "button" onClick = "window.location.href = 'index.html';">Return to Login</button>
+			
+		</div>
+
+	</body>
+</html>
