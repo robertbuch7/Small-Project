@@ -73,11 +73,6 @@ body, html {
 	margin-right-min: 2%;
 }
 */
-#loginResult {
-	background-color: transparent;
-	color: red;
-	max-width: 220px;
-}
 
 h3{
 	font-size: 40px;
